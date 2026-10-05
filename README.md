@@ -1,30 +1,38 @@
-# Alimentos Falantes TV — MVP 1
+# 🥕 Alimentos Falantes TV
 
-Protótipo inicial de uma plataforma própria de vídeos, inspirado na estrutura do anúncio analisado.
+Plataforma de vídeos educativos e divertidos onde os alimentos ganham voz para ensinar sobre saúde, nutrição, curiosidades e histórias.
 
-## O que já existe
+## 🚀 Funcionalidades atuais
+
 - Página inicial responsiva
-- Hero/banner
+- Busca de vídeos
 - Categorias
-- Busca local
-- Cards de vídeos
-- Mais vistos
-- Página de administração visual
-- Estrutura preparada para futura integração de upload, banco de dados e streaming
+- Área administrativa (MVP)
+- Seção de vídeos em destaque
+- Layout moderno otimizado para desktop e mobile
 
-## Próxima etapa técnica
-1. Backend + banco de dados
-2. Login de administrador
-3. Upload real de MP4
-4. Streaming via serviço de vídeo
-5. Thumbnail automática
-6. Contagem de visualizações
-7. Player real
-8. Publicidade
-9. Cadastro de criadores e conteúdo autorizado
+## 🛠 Tecnologias
 
-## Observação legal
-A importação de vídeos de terceiros deve respeitar direitos autorais, licenças e os termos das plataformas de origem. O sistema deve priorizar conteúdo próprio ou autorizado.
+- HTML5
+- CSS3
+- JavaScript
+- GitHub
+- Vercel
 
-## Teste local
-Abra `index.html` no navegador. Para testar com servidor local, use qualquer servidor estático, por exemplo `python -m http.server` dentro desta pasta.
+## 📈 Próximas funcionalidades
+
+- Login administrativo
+- Banco de dados Supabase
+- Upload real de vídeos
+- Player de vídeo
+- Contador de visualizações
+- Dashboard administrativo
+- IA para geração de conteúdo
+
+## 🌐 Projeto Online
+
+https://alimentos-falantes-du0ptk9ru-jb-bot13.vercel.app/
+
+## 👨‍💻 Autor
+
+João Brito
