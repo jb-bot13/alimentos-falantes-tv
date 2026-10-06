@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Teste Supabase</title>
 </head>
-
 <body>
 
 <h1>Teste Supabase</h1>
@@ -13,27 +12,21 @@
 Carregando...
 </pre>
 
-<script src="https://cdn.jsdelivr.base/supabase-js@2script>
+<script src="https://cdn.jsdelivrabase/supabase-js@2script>
 
-<script .jsscript>
+<script src="supabase.js"></script>
 
-<script>
-
-async function testar() {
+unction testar() {
 
     const { data, error } =
         await supabase
         .from("videos")
         .select("*");
 
-    document
-        .getElementById("resultado")
+    document.getElementById("resultado")
         .textContent =
         JSON.stringify(
-            {
-                data,
-                error
-            },
+            { data, error },
             null,
             2
         );
